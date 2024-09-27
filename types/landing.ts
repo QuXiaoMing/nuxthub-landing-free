@@ -1,4 +1,4 @@
-import { FunctionalComponent, SVGAttributes } from 'vue'
+import type { FunctionalComponent, SVGAttributes } from 'vue'
 
 export interface Page {
   title: string;
@@ -140,11 +140,12 @@ export type TextAlign = "left" | "center" | undefined;
 export interface FeatureItem {
   title: string;
   description: string;
-  icon: string; // 新增：图标名称
+  icon: any; // 新增：图标名称
 }
 
 export interface Feature {
   title: string;
+  description?: string;
   items: FeatureItem[];
 }
 

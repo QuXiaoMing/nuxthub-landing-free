@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@heroicons/vue':
-        specifier: ^2.1.5
-        version: 2.1.5(vue@3.5.9(typescript@5.6.2))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -661,11 +658,6 @@ packages:
 
   '@floating-ui/vue@1.1.5':
     resolution: {integrity: sha512-ynL1p5Z+woPVSwgMGqeDrx6HrJfGIDzFyESFkyqJKilGW1+h/8yVY29Khn0LaU6wHBRwZ13ntG6reiHWK6jyzw==}
-
-  '@heroicons/vue@2.1.5':
-    resolution: {integrity: sha512-IpqR72sFqFs55kyKfFS7tN+Ww6odFNeH/7UxycIOrlVYfj4WUGAdzQtLBnJspucSeqWFQsKM0g0YrgU655BEfA==}
-    peerDependencies:
-      vue: '>= 3'
 
   '@internationalized/date@3.5.5':
     resolution: {integrity: sha512-H+CfYvOZ0LTJeeLOqm19E3uj/4YjrmOFtBufDHPfvtI80hFAMqtrp7oCACpe4Cil5l8S0Qu/9dYfZc/5lY8WQQ==}
@@ -4092,10 +4084,6 @@ snapshots:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-
-  '@heroicons/vue@2.1.5(vue@3.5.9(typescript@5.6.2))':
-    dependencies:
-      vue: 3.5.9(typescript@5.6.2)
 
   '@internationalized/date@3.5.5':
     dependencies:

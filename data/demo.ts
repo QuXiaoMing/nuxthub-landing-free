@@ -1,12 +1,12 @@
 import type { Page, Pricing } from "@/types/landing";
 import {
-  DevicePhoneMobileIcon,
-  CubeIcon,
-  PaintBrushIcon,
-  UserGroupIcon,
-  GlobeAltIcon,
-  BoltIcon
-} from '@heroicons/vue/24/outline'
+  Smartphone,
+  Box,
+  Paintbrush,
+  Users,
+  Globe,
+  Zap
+} from 'lucide-vue-next'
 
 const pricing: Pricing = {
   freePlan: {
@@ -236,37 +236,37 @@ export const page: Page = {
         title: "Responsive Design",
         description:
           "Create stunning websites that adapt seamlessly to different screen sizes and devices.",
-        icon: DevicePhoneMobileIcon,
+        icon: Smartphone,
       },
       {
         title: "Extensive Component Library",
         description:
           "Choose from a vast collection of pre-built components to accelerate your application development.",
-        icon: CubeIcon,
+        icon: Box,
       },
       {
         title: "Customizable Styles",
         description:
           "Easily customize the look and feel of your application with our flexible styling options.",
-        icon: PaintBrushIcon,
+        icon: Paintbrush,
       },
       {
         title: "Accessibility Ready",
         description:
           "Ensure your application is accessible to all users, regardless of their abilities or devices.",
-        icon: UserGroupIcon,
+        icon: Users,
       },
       {
         title: "Cross-Browser Compatibility",
         description:
           "Rest assured that your application will work flawlessly across all major browsers.",
-        icon: GlobeAltIcon,
+        icon: Globe,
       },
       {
         title: "Optimized Performance",
         description:
           "Deliver fast-loading and smooth user experiences with our performance-optimized codebase.",
-        icon: BoltIcon,
+        icon: Zap,
       },
     ],
   },

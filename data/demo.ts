@@ -92,12 +92,12 @@ export const page: Page = {
         },
         {
           title: "Documentation",
-          url: "https://docs.nuxthub.com", 
+          url: "https://github.com/ixdevv/nuxthub-landing-free", 
           target: "_blank",
         },
         {
           title: "Blog",
-          url: "https://blog.nuxthub.com", 
+          url: "https://github.com/ixdevv/nuxthub-landing-free", 
           target: "_blank",
         },
       ],
@@ -105,7 +105,7 @@ export const page: Page = {
     buttons: [
       {
         title: "Get Started",
-        url: "https://app.nuxthub.com/signup", 
+        url: "https://github.com/ixdevv/nuxthub-landing-free", 
         target: "_blank",
       },
     ],
@@ -122,7 +122,7 @@ export const page: Page = {
     buttons: [
       {
         title: "Download Template",
-        url: "#", 
+        url: "https://github.com/ixdevv/nuxthub-landing-free", 
         target: "_blank",
       }
     ],
@@ -276,7 +276,7 @@ export const page: Page = {
     buttons: [
       {
         title: "Download Template",
-        url: "#", 
+        url: "https://github.com/ixdevv/nuxthub-landing-free", 
         target: "_blank",
       },
     ],
@@ -395,12 +395,12 @@ export const page: Page = {
           children: [
             {
               title: "Documentation",
-              url: "https://docs.nuxthub.com",
+              url: "https://github.com/ixdevv/nuxthub-landing-free",
               target: "_blank",
             },
             {
               title: "Blog",
-              url: "https://blog.nuxthub.com",
+              url: "https://github.com/ixdevv/nuxthub-landing-free",
               target: "_blank",
             },
           ],

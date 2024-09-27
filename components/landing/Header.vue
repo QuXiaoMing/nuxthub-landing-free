@@ -7,9 +7,13 @@ defineProps<{
 
 const isScrolled = ref(false);
 
-const scrollToSection = (sectionId: string) => {
+const scrollToSection = (event: Event, item: any) => {
+  if (!item || !item.url) return;
+  if (item.url === '#') return;
+  const sectionId = item.url.substring(1);
   const element = document.getElementById(sectionId);
   if (element) {
+    event.preventDefault();
     element.scrollIntoView({ behavior: 'smooth' });
     history.pushState(null, '', `#${sectionId}`);
   }
@@ -42,31 +46,25 @@ onUnmounted(() => {
     isScrolled ? 'bg-black/10 backdrop-blur-sm shadow-subtle' : 'bg-transparent'
   ]">
     <div class="container mx-auto flex items-center justify-between p-4">
-      <div 
-        class="text-2xl font-bold transition-colors cursor-pointer text-white" 
-        @click="scrollToTop"
-      >
+      <div class="text-2xl font-bold transition-colors cursor-pointer text-white" @click="scrollToTop">
         {{ header.brand.avatar.title }}
       </div>
       <nav class="hidden space-x-4 md:flex">
-        <a
-          v-for="item in header.nav.items"
-          :key="item.title"
-          :href="item.url"
-          :target="item.target"
-          @click.prevent="scrollToSection(item.url.substring(1))"
-          class="text-sm hover:text-purple-400 cursor-pointer text-white transition-colors duration-300"
-        >
+        <a v-for="item in header.nav.items" :key="item.title" :href="item.url" :target="item.target"
+          @click="(event: any) => scrollToSection(event, item)"
+          class="text-sm hover:text-purple-400 cursor-pointer text-white transition-colors duration-300">
           {{ item.title }}
         </a>
       </nav>
-      <button 
-        v-for="button in header.buttons" 
-        :key="button.title" 
+      <NuxtLink
+        v-for="button in header.buttons"
+        :key="button.title"
+        :to="button.url"
+        target="_blank"
         class="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded text-white transition-colors duration-300"
       >
         {{ button.title }}
-      </button>
+      </NuxtLink>
     </div>
   </header>
 </template>
@@ -77,6 +75,6 @@ onUnmounted(() => {
 }
 
 .shadow-subtle {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 </style>

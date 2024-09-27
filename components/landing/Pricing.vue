@@ -20,7 +20,7 @@ defineProps<{
           <h3 class="mb-2 text-2xl font-bold">{{ plan.title }}</h3>
           <p class="mb-4 text-4xl font-bold">${{ plan.discountedPrice }}</p>
           <p class="mb-6 text-gray-300">{{ plan.description }}</p>
-          <div v-if="plan.discountPercentage" class="mb-4 inline-block bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-full">
+          <div v-if="plan.discountPercentage" class="mb-4 inline-block bg-green-700 text-white text-sm font-semibold px-3 py-1 rounded-full">
             {{ plan.discountPercentage }}% OFF
           </div>
           <ul class="mb-6 flex-grow space-y-2">
@@ -32,7 +32,7 @@ defineProps<{
             </li>
           </ul>
           <a :href="plan.ctaLink" target="_blank" rel="noopener" 
-             class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground h-10 px-4 py-2 w-full bg-purple-600 hover:bg-purple-700">
+             class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full bg-purple-600 hover:bg-purple-700 text-white">
             {{ plan.ctaText }}
           </a>
         </div>

@@ -1,6 +1,8 @@
 <script setup lang="ts">
+
+import type { Page } from '~/types/landing';
 defineProps<{
-    hero: any
+    hero: Page['hero'];
 }>();
 </script>
 <template>
@@ -16,14 +18,14 @@ defineProps<{
                 {{ hero.description }}
             </p>
             <div class="space-x-4">
-                <button v-for="button in hero.buttons" :key="button.title" :class="[
-                    'px-6 py-3 rounded text-lg font-semibold',
+                <NuxtLink v-for="button in hero.buttons" :key="button.title" :to="button.url" target="_blank" :class="[
+                    'px-6 py-3 rounded text-lg font-semibold inline-block',
                     button.theme === 'outline'
-                        ? 'border-purple-600 text-purple-400 hover:text-white'
+                        ? 'border border-purple-600 text-purple-400 hover:text-white hover:bg-purple-600'
                         : 'bg-purple-600 hover:bg-purple-700 text-white'
                 ]">
                     {{ button.title }}
-                </button>
+                </NuxtLink>
             </div>
         </div>
         <div class="relative h-[400px]">

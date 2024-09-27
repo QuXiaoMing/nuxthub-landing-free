@@ -17,5 +17,21 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
-  }
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+        class: 'dark',
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    },
+  },
+  tailwindcss: {
+    config: {
+      darkMode: 'class',
+    },
+  },
 })

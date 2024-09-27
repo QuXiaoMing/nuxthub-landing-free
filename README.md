@@ -2,7 +2,30 @@
 
 This is a sleek and responsive landing page template crafted with Nuxt 3 and enhanced by Shadcn UI components.
 
+
+## Performance Optimization
+
+This project has achieved exceptional scores in Google Lighthouse assessments, demonstrating outstanding performance and user experience:
+
+- **Performance**: 100
+- **Accessibility**: 100
+- **Best Practices**: 100
+- **SEO (Search Engine Optimization)**: 100
+
+![Google Lighthouse Score Screenshot](./public/high-performance.png)
+
+These perfect scores highlight our commitment to website quality, ensuring:
+
+- Rapid loading times
+- Easy accessibility
+- Adherence to best practices
+- Search engine friendliness
+
+Our focus on these aspects guarantees an optimal user experience and maximizes the website's visibility and effectiveness.
+
+
 ![preview](./public/preview.png)
+
 
 ## Getting Started
 

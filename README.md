@@ -1,7 +1,6 @@
 # Nuxt 3 Modern Landing Page Template
 
-A high-performance, SEO-friendly Nuxthub landing template. 
- 
+A high-performance, SEO-friendly Nuxthub landing template. Built with Nuxt 3, Shadcn UI, Tailwind CSS. 
 
 
 ## Performance Optimization

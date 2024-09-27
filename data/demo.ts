@@ -113,7 +113,7 @@ export const page: Page = {
   hero: {
     title: "Build Stunning Nuxt Landing Pages with Ease",
     description:
-      "Nuxthub Landing Free is a powerful Nuxt template, built on NuxtHub, that makes creating beautiful and functional landing pages a breeze. With its intuitive design and pre-built components, you can launch your landing page in minutes.",
+      "A high-performance, SEO-friendly Nuxthub landing template. Built with Nuxt 3, Shadcn UI, Tailwind CSS. With its intuitive design and pre-built components, you can launch your landing page in minutes.",
     image: {
       src: "/hero.png",
     },

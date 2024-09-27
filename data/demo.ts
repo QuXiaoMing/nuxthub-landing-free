@@ -137,7 +137,7 @@ export const page: Page = {
         description:
           "Nuxthub Landing Free is a free and open-source Nuxt template that provides a solid foundation for creating professional landing pages. It's packed with features and designed to be easily customizable, so you can create a landing page that perfectly reflects your brand.",
         image: {
-          src: "https://framerusercontent.com/images/rUmC4esdvqwDQGqhtVZaZRIx0.png?scale-down-to=512", 
+          src: "/feature.jpg", 
         },
         image_position: "left",
         text_align: "center",
@@ -165,7 +165,7 @@ export const page: Page = {
         description:
           "Nuxthub Landing Free offers a simple and efficient way to create high-quality landing pages without the need for extensive coding. Here's why you should choose it:",
         image: {
-          src: "https://framerusercontent.com/images/rUmC4esdvqwDQGqhtVZaZRIx0.png?scale-down-to=512", 
+          src: "/feature.jpg", 
         },
         image_position: "right",
         text_align: "center",
@@ -191,7 +191,7 @@ export const page: Page = {
         description:
           "Getting started with Nuxthub Landing Free is easy. Follow these steps:",
         image: {
-          src: "https://framerusercontent.com/images/rUmC4esdvqwDQGqhtVZaZRIx0.png?scale-down-to=512", 
+          src: "/feature.jpg", 
         },
         image_position: "left",
         text_align: "center",

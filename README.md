@@ -1,6 +1,7 @@
 # Nuxt 3 Modern Landing Page Template
 
-This is a sleek and responsive landing page template crafted with Nuxt 3 and enhanced by Shadcn UI components.
+A high-performance, SEO-friendly Nuxthub landing template. 
+ 
 
 
 ## Performance Optimization
@@ -162,6 +163,7 @@ This structure has been proven to have an extremely high conversion rate.
 This template is built upon the following amazing technologies:
 
 - [Nuxt 3](https://nuxt.com) - The Intuitive Vue Framework
+- [Nuxt Hub](https://hub.nuxt.com) - Ship Sass project faster
 - [Shadcn UI](https://ui.shadcn.com) - Beautifully designed components
 - [Shadcn UI Pro](https://pro.shadcn.net) - Premium components and templates
 

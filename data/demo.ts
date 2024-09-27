@@ -403,6 +403,11 @@ export const page: Page = {
               url: "https://github.com/ixdevv/nuxthub-landing-free",
               target: "_blank",
             },
+            {
+              title: "Shadcn UI Pro",
+              url: "https://pro.shadcn.net/",
+              target: "_blank",
+            },
           ],
         },
         {
